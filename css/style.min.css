@@ -8717,7 +8717,7 @@ h6,
   position: fixed;
   display: none;
   right: 30px;
-  bottom: 30px;
+  bottom: 170px;
   z-index: 11;
   animation: action 1s infinite alternate;
 }
@@ -8895,3 +8895,9 @@ h6,
   .my-float {
     margin-top: 10px;
   }
+
+  .navigation {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+ }
